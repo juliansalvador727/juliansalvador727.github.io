@@ -1,101 +1,104 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 * {
-    font-family: Inter;
-    scrollbar-width: thin;
-    scrollbar-color: #d6d3d1 #f5f5f4;   
+  font-family: Inter;
+  scrollbar-width: thin;
+  scrollbar-color: #d6d3d1 #f5f5f4;
 }
 
 .right-links li {
-    list-style-type:none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .right-links ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display:flex;
-    margin-top: 16px;
-    justify-content:center;
-    gap: 32px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  margin-top: 16px;
+  justify-content: center;
+  gap: 32px;
 }
 
 .right-links a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 body {
-    margin-left: 200px;
-    margin-right: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 /* Header */
 
 .logo {
-    display: flex;
-    justify-content: center;
-    font-size: 36px;
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
 }
 
 .header {
-    padding: 36px;
+  padding: 36px;
 }
 
 /* Hero Section */
 
 .hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-} 
-
-.hero-photo {
-    width: 800px;
-    height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
 }
 
+.hero-photo {
+  width: 800px;
+  height: 500px;
+}
 
 /* Body */
 
-.main-text p { 
+.main-text p {
   text-indent: 3em; /* or 15px, or 5%, 2rem or 3vw */
   font-size: 24px;
   line-height: 56px;
 }
 
 .body-photo {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    width: 640px;
-    height: 700px;
-    margin: auto;
-    display: block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 640px;
+  height: 700px;
+  margin: auto;
+  display: block;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    gap: 64px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .container-img {
-    width: 400px;
-    height: 500px;
-    
+  width: 400px;
+  height: 500px;
 }
+
+.center-text {
+  text-align: center;
+}
+
 /* Bottom Part */
 
 .footer {
-    display:flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
