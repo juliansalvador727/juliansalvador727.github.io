@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     font-family: Inter;
     scrollbar-width: thin;
@@ -61,8 +65,17 @@ body {
 /* Body */
 
 .main-text p { 
-  text-indent: 4em; /* or 15px, or 5%, 2rem or 3vw */
+  text-indent: 3em; /* or 15px, or 5%, 2rem or 3vw */
   font-size: 24px;
+}
+
+.body-photo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 640px;
+    height: 700px;
+    margin: auto;
+    display: block;
 }
 
 
